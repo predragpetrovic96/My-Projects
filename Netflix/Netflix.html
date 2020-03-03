@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Netflix</title>
+	<link rel="stylesheet" type="text/css" href="Netflix.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="Netflix.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">  
+</head>
+<body>
+	<div class="header">
+		<a class="sign_in" href="https://www.netflix.com/rs/login">Sign In</a>
+		<div class="header_container">
+			<img class="header_logo" src="images/Netflixlogo.png">
+			<h2>See what's next.</h2>
+			<h3>WATHC ANYWHERE. CANCEL ANYTIME.</h3>
+			<div class="join_free">
+				<a href="https://www.netflix.com/signup?action=startAction&locale=en-RS">JOIN FREE FOR A MONTH</a>
+				<img src="images/Arrow.jpg">
+			</div>	
+		</div>
+	</div>
+	<div class="tabs">
+			<div class="tab_wrapper">
+				<div class="tabs_container">
+					<div class="tab active" data-tabId="lep">
+						<img src="images/tab1.jpg">
+						<p>No commitments<br>Cancel online at anytime</p>
+					</div>
+					<div class="tab" data-tabId="lepsi">
+						<img src="images/tab2.jpg">
+						<p>Watch anywhere</p>
+					</div>
+					<div class="tab" data-tabId="najlep">
+						<img src="images/tab3.jpg">
+						<p>Pick your price</p>
+					</div>
+				</div>
+			</div>
+			<div class="tab_contents">
+				<div class="tabs_container">
+					<div class="tab_content active" id="lep">
+						<div class="cancel_anytime">
+						<p>If you decide Netflix isn't for you - no problem. No commitmnet. Cancel online anytime.</p>
+						<a class="join_free1" href="https://www.netflix.com/signup?action=startAction&locale=en-RS">JOIN FREE FOR A MONTH</a>
+						</div>
+						<img src="images/Tablet.jpg">
+					</div>
+					<div class="tab_content" id="lepsi">
+						<div class="tab_content_header">
+							<p>Watch TV shows and movies anywhere,anywhere—personalized for you</p>
+							<a class="join_free2" href="https://www.netflix.com/signup?action=startAction&locale=en-RS">JOIN FREE FOR A MONTH</a>
+						</div>
+						<div class="watch">
+							<div>
+								<img src="images/tv.jpg">
+							</div>
+							<h3>Watch on your TV</h3>
+							<p>Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+						</div>
+						<div class="watch">
+							<div>
+								<img src="images/mobile.jpg">
+							</div>
+							<h3>Watch instatly or download for later</h3>
+							<p>Available on phone and tablet, wherever you go.</p>
+						</div>
+						<div class="watch">
+							<div>
+								<img src="images/laptop.jpg">
+							</div>	
+							<h3>Use any computer</h3>
+							<p>Watch right on Netflix.com.</p>
+						</div>
+					</div>
+					<div class="tab_content" id="najlep">
+						<p>Choose one plan and watch everything on Netflix.</p>
+						<a class="join_free3" href="https://www.netflix.com/signup?action=startAction&locale=en-RS">JOIN FREE FOR A MONTH</a>
+						<table>
+							<tr class="choose">
+								<th></th>
+								<th>BASIC</th>
+								<th>STANDARD</th>
+								<th>PREMIUM</th>
+							</tr>
+							<tr class="black">
+								<td class="choice">Monthly price after free month ends on 11/3/18</td>
+								<td>EUR7.99</td>
+								<td>EUR9.99	</td>
+								<td>EUR11.99</td>
+							</tr>
+							<tr class="grey">
+								<td class="choice">HD available</td>
+								<td><i class="fas fa-times"></i></td>
+								<td><i class="fas fa-check"></i></td>
+								<td><i class="fas fa-check"></i></td>
+							</tr>
+							<tr class="black">
+								<td class="choice">Ultra HD available</td>
+								<td><i class="fas fa-times"></td>
+								<td><i class="fas fa-times"></td>
+								<td><i class="fas fa-check"></i></td>
+							</tr>
+							<tr class="grey">
+								<td class="choice">Screens you can watch on at the same time</td>
+								<td>1</td>
+								<td>2</td>
+								<td>4</td>
+							</tr>
+							<tr class="black">
+								<td class="choice">Watch on your laptop, TV, phone and tablet</td>
+								<td><i class="fas fa-check"></i></td>
+								<td><i class="fas fa-check"></i></td>
+								<td><i class="fas fa-check"></i></td>
+							</tr>
+							<tr class="grey">
+								<td class="choice">Unlimited movies and TV shows</td>
+								<td><i class="fas fa-check"></i></td>
+								<td><i class="fas fa-check"></i></td>
+								<td><i class="fas fa-check"></i></td>
+							</tr>
+							<tr class="black">
+								<td class="choice">Cancel anytime</td>
+								<td><i class="fas fa-check"></i></td>
+								<td><i class="fas fa-check"></i></td>
+								<td><i class="fas fa-check"></i></td>
+							</tr>
+							<tr class="grey">
+								<td class="choice">First month free</td>
+								<td><i class="fas fa-check"></i></td>
+								<td><i class="fas fa-check"></i></td>
+								<td><i class="fas fa-check"></i></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+	</div>
+	<div class="footer">
+		<div class="footer_container">
+			<a class="questions" href="https://help.netflix.com/en/contactus">Questions? Contact us.</a>
+			<ul>
+				<li><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
+				<li><a href="https://ir.netflix.com/ir-overview/profile/default.aspx">Investor Relations</a></li>
+				<li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
+				<li><a href="https://fast.com/">Speed Test</a></li>
+			</ul>
+			<ul>
+				<li><a href="https://help.netflix.com/en">Help Center</a></li>
+				<li><a href="https://jobs.netflix.com/">Jobs</a></li>
+				<li><a href="https://help.netflix.com/legal/privacy#cookies">Cookie Preferences</a></li>
+				<li><a href="https://help.netflix.com/legal/notices">Legal Notices</a></li>
+			</ul>
+			<ul>
+				<li><a href="https://www.netflix.com/rs/Login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount">Account</a></li>
+				<li><a href="https://devices.netflix.com/en/">Ways to Watch</a></li>
+				<li><a href="https://help.netflix.com/en/node/2101">Corporate Information</a></li>
+				<li><a href="https://www.netflix.com/rs/originals">Netflix Originals</a></li>
+			</ul>
+			<ul>
+				<li><a href="https://media.netflix.com/en/">Media Center</a></li>
+				<li><a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a></li>
+				<li><a href="https://help.netflix.com/en/contactus">Contact Us</a></li>
+			</ul>
+			<h5>Netflix Serbia</h5>
+		</div>
+	</div>
+</body>
+</html>

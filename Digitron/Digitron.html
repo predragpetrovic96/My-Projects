@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap&subset=latin-ext" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="mdl2-icons/css/mdl2-icons.min.css">
+		<link rel="stylesheet" type="text/css" href="Digitron.css">
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="Digitron.js"></script>
+	</head>
+	<body class="color_body">
+		<div class="press_me"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="palette" class="svg-inline--fa fa-palette fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg></div>
+		<div class="calculator">
+			<h1>Calculator</h1>
+			<div class="display">
+				<div class="history"></div>
+				<div class="result">0</div>
+			</div>
+			<div class="buttons">
+				<div class="button" data-value="ce"><span>CE</span></div>
+				<div class="button" data-value="c"><span>C</span></div>
+				<div class="button" data-value="bs"><span><i class="mdl2 mdl2-back"></i></span></div>
+				<div class="button" data-value="/"><span><i class="mdl2 mdl2-italic"></i></span></div>
+				<div class="number" data-value="7"><span>7</span></div>
+				<div class="number" data-value="8"><span>8</span></div>
+				<div class="number" data-value="9"><span>9</span></div>
+				<div class="button" data-value="x"><span><i class="mdl2 mdl2-cancel"></i></span></div>
+				<div class="number" data-value="4"><span>4</span></div>
+				<div class="number" data-value="5"><span>5</span></div>
+				<div class="number" data-value="6"><span>6</span></div>
+				<div class="button" data-value="-"><span><i class="mdl2 mdl2-remove"></i></span></div>
+				<div class="number" data-value="1"><span>1</span></div>
+				<div class="number" data-value="2"><span>2</span></div>
+				<div class="number" data-value="3"><span>3</span></div>
+				<div class="button" data-value="+"><span><i class="mdl2 mdl2-add"></i></span></div>
+				<div class="button" data-value="+/-"><span><i class="mdl2 mdl2-switch"></i></span></div>
+				<div class="number" data-value="0"><span>0</span></div>
+				<div class="button" data-value="."><span>.</span></div>
+				<div class="button" data-value="="><span>=</span></div>
+			</div>
+		</div>
+	</body>
+</html>
